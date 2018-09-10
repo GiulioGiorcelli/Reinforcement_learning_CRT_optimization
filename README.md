@@ -10,7 +10,7 @@ My work has been inspired by this GitHub repo: https://github.com/lucko515/ads-s
 Regardless, I will clearly flag lucko515's code. No matter which version you like the most, his work has been instumental to the creation of this software. Kudos to this guy: https://github.com/lucko515
 
 # License
-Theis entire repo is under MIT license.
+This entire repo is under MIT license.
 
 
 
