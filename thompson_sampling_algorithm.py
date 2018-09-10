@@ -3,8 +3,12 @@ import numpy as np
 import random
 
 
-# this is an implementation of the Thompson Sampling algorithm that I found on GitHub. I don't think this implementation is correct
-# as it is very greedy and it does not seem to explore as much as it should
+# this is an Lucko515'a implementation of the Thompson Sampling algorithm that I found on his GitHub:
+# https://github.com/lucko515/ads-strategy-reinforcement-learning/blob/master/Thompson%20sampling%20Algorithm/thompson_sampling_algorithm.py
+# this implementation, altought probably correct, it does not explore as much as I need it to.
+# I'm including his code to make it easy to compare the two implementations
+
+### lucko515's code START ###
 def thompson_sampling(data):
 
 	N = data.shape[0]
@@ -40,7 +44,7 @@ def thompson_sampling(data):
 		total_score += reward
 
 	return iter_object_selected, total_score
-	
+### lucko515's code END ###
 	
 	
 
