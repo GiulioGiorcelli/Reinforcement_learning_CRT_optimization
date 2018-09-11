@@ -1,4 +1,4 @@
-# Reinforcement learning for CRT optimization
+# Reinforcement learning for CTR optimization
 Working in online marketing and lead gen, I naturally eneded up trying to solve the multi-armed bandit dilemma in the best and most profitable way possible. Reinforcement learning is one of the most fascinating branches of AI and, based on my research, it appears to provide the optimal solution to this issue.
 
 # What you'll find in this repository
